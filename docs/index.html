@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="../img/favicon.png" rel="icon">
+  <link href="../img/BlackGold.jpg" rel="icon">
   
 
   <!-- Google Fonts -->
@@ -49,7 +49,7 @@
       <div id="logo" class="pull-left">
         <h1><a href="#intro" class="scrollto">AWTI</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+         <!--<a href="#intro"><img style="width: 10px;height: 1opx" src="../img/BlackGold.jpg" alt="" title="" /></a>-->
       </div>
 
       <nav id="nav-menu-container">
@@ -57,9 +57,9 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#courses">Courses</a></li>
-          <li><a href="#portfolio">Images</a></li>
+          <!--<li><a href="#portfolio">Gallery</a></li>-->
           <li><a href="#locateUs">Locate Us</a></li>
-          <li><a href="#team">Team</a></li>
+          <!--<li><a href="#team">Team</a></li>-->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -194,7 +194,8 @@
               </div>
               <h2 class="title"><a href="#">Our Mission</a></h2>
               <p>
-                The Institution prepares students to understand, contribute to, and succeed in a rapidly changing society, thus making the world a better and more just place. We will ensure that our students develop both the skills that a sound education provides and the competencies essential for success and leadership in the emerging creative economy.
+                The Institution prepares students to understand, contribute to, and succeed in a rapidly changing society, thus making the world a better and more just place.
+                  <br><br>
               </p>
             </div>
           </div>
@@ -207,7 +208,8 @@
               </div>
               <h2 class="title"><a href="#">Our Plan</a></h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                 Ensuring that our students develop both the skills that a sound education provides and the competencies essential for success and leadership in the emerging creative economy.
+                <br><br>
               </p>
             </div>
           </div>
@@ -220,8 +222,11 @@
               </div>
               <h2 class="title"><a href="#">Our Vision</a></h2>
               <p>
-                Creativity, innovation and Social Engagement
+                Creativity, innovation and Social Engagement should orient students' academic experiences to help them become critically engaged citizens, dedicated to solving problems and contributing to the public good.
               </p>
+                
+                
+                
             </div>
           </div>
 
@@ -368,11 +373,11 @@
     <!--==========================
       Portfolio Section
     ============================-->
-    <section id="portfolio"  class="section-bg" >
+    <!--<section id="portfolio"  class="section-bg" >
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">Gallery</h3>
         </header>
 
         <div class="row">
@@ -526,7 +531,7 @@
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section>--><!-- #portfolio -->
 
     <!--==========================
       Clients Section
@@ -557,7 +562,7 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="testimonials" class="section-bg wow fadeInUp">
+    <!--<section id="testimonials" class="section-bg wow fadeInUp">
       <div class="container">
 
         <header class="section-header">
@@ -624,12 +629,12 @@
         </div>
 
       </div>
-    </section><!-- #testimonials -->
+    </section>--><!-- #testimonials -->
 
     <!--==========================
       Team Section
     ============================-->
-    <section id="team">
+    <!--<section id="team">
       <div class="container">
         <div class="section-header wow fadeInUp">
           <h3>Team</h3>
@@ -713,7 +718,7 @@
         </div>
 
       </div>
-    </section><!-- #team -->
+    </section>--><!-- #team -->
 
     <!--==========================
       Contact Section
@@ -723,7 +728,7 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>Contact Us any time !!!</p>
         </div>
 
         <div class="row contact-info">
@@ -762,6 +767,7 @@
         <h3>Call To Action</h3>
         <p>Provide Your Feedback to Us</p>
         <a class="cta-btn"  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd7ByrfWrsrFHuQaM9TSwiNYk0ZvEeKPgAULL89OU-Zms4gfw/viewform?usp=sf_link">Click me to give feedback</a>
+          <a class="cta-btn"  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd7ByrfWrsrFHuQaM9TSwiNYk0ZvEeKPgAULL89OU-Zms4gfw/viewform?usp=sf_link">Download Enrolment Form</a>
       </div>
     </section><!-- #call-to-action -->
 
@@ -790,7 +796,7 @@
               <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#courses">Courses</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#locateUs">Locate Us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#team">Team</a></li>
+              <!--<li><i class="ion-ios-arrow-right"></i> <a href="#team">Team</a></li>-->
                
             </ul>
           </div>
@@ -869,36 +875,22 @@
         
 function myMap() {
     
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -27.448864, lng: 153.038479},
-          zoom: 15
-        });
-
-        var infowindow = new google.maps.InfoWindow();
-        var service = new google.maps.places.PlacesService(map);
-
-        service.getDetails({
-          placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4'
-        }, function(place, status) {
-          if (status === google.maps.places.PlacesServiceStatus.OK) {
-            var marker = new google.maps.Marker({
-              map: map,
-              position: place.geometry.location
-            });
-            google.maps.event.addListener(marker, 'click', function() {
-              infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-                'Place ID: ' + place.place_id + '<br>' +
-                place.formatted_address + '</div>');
-              infowindow.open(map, this);
-            });
-          }
+      var latlng = new google.maps.LatLng(-27.449087, 153.038479);
+map = new google.maps.Map(document.getElementById('map'), {
+  center: latlng,
+  zoom: 16
+});
+     var marker = new google.maps.Marker({
+          position: latlng,
+          map: map,
+          title: 'AWTI'
         });
 }
 </script>
 
-  <!--   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmsed1VW2qRr634l7E1WKYKL8kouLlLTQ&libraries=places&callback=myMap">
-    </script>-->
+     
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJKb2joe14qIB8_orblIIe7oRhnZ_nFM&callback=myMap"></script>
+    
 
 </body>
 </html>
