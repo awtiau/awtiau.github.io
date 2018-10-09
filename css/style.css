@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -614,7 +614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
+ /* background: rgba(255, 255, 255, 0.92);*/
   z-index: 9;
 }
 
